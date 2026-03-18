@@ -7,7 +7,31 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="319,0,0,0" VerticalAlignment="Center" Height="54" Width="133"/>
-
+        <Grid.Background>
+            <ImageBrush ImageSource="/br.png"/>
+        </Grid.Background>
+        <Grid Margin="194,76,194,76"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="194,76,194,76">
+            <Border.Background>
+                <ImageBrush/>
+            </Border.Background>
+            <Label Content="🖩 Het Rekenspel 🖩&#xA;" Margin="94,9,94,216" FontSize="24" Foreground="#FF4A4A4A" FontWeight="Bold">
+                <Label.Background>
+                    <ImageBrush/>
+                </Label.Background>
+            </Label>
+        </Border>
+        <TextBlock TextBlock.TextAlignment="Center" HorizontalAlignment="Left" Margin="519,101,0,0" TextWrapping="Wrap" Text="Score" VerticalAlignment="Top" Height="56" Width="66" FontSize="23" Foreground="#FF4A4A4A"/>
+        <TextBlock TextBlock.TextAlignment="Center" HorizontalAlignment="Center" Margin="0,162,0,0" TextWrapping="Wrap" Height="55" Width="272" FontSize="24" VerticalAlignment="Top" Foreground="#FF4A4A4A"><Run Language="nl-nl" Text="Som"/><LineBreak/><Run Language="nl-nl"/></TextBlock>
+        <Button Content="New som" HorizontalAlignment="Center" Margin="0,289,0,0" VerticalAlignment="Top" Height="43" Width="168" Click="Button_Click" FontSize="24" Foreground="#FF4A4A4A" BorderBrush="#FFC4B4B4">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <TextBox TextBlock.TextAlignment="Center" HorizontalAlignment="Center" Margin="0,237,0,0" TextWrapping="Wrap" Text="Input" VerticalAlignment="Top" Width="144" Height="34" TextChanged="TextBox_TextChanged" FontSize="24" Foreground="#FF4A4A4A" SelectionBrush="#FFF2E2BA" SelectionTextBrush="#FFF2E2BA" BorderBrush="#FFC4B4B4">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
     </Grid>
 </Window>
