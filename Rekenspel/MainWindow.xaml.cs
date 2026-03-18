@@ -16,6 +16,42 @@ namespace Rekenspel
     /// </summary>
     public partial class MainWindow : Window
     {
+        Random random = new Random();
+        int getal1;
+        int getal2;
+        string math;
+
+        void GenerateSom()
+        {
+            int getal1 = random.Next(1, 11);
+            int getal2 = random.Next(1, 11);
+
+            int choice = random.Next(1, 5);
+
+            string math = "";
+
+            if (choice == 1)
+                math = "+";
+
+            else if (choice == 2)
+                math = "-";
+
+            else if (choice == 3)
+                math = "*";
+
+            else if (choice == 4)
+                math = "/";
+
+
+            som.Text = $"{getal1} {math} {getal2}";
+                
+                
+        }
+
+
+
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -28,7 +64,7 @@ namespace Rekenspel
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            GenerateSom();
         }
     }
 }
