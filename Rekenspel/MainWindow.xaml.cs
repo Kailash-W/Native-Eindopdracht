@@ -23,24 +23,21 @@ namespace Rekenspel
 
         void GenerateSom()
         {
-            int getal1 = random.Next(1, 11);
-            int getal2 = random.Next(1, 11);
-
+            getal1 = random.Next(1, 11);
+            getal2 = random.Next(1, 11);
+            int total = 0;
             int choice = random.Next(1, 5);
-
-            string math = "";
-
-            if (choice == 1)
-                math = "+";
-
+            
+             if (choice == 1)
+            { math = "+"; }
             else if (choice == 2)
-                math = "-";
-
+            { math = "-"; }
             else if (choice == 3)
-                math = "*";
-
+            { math = "*"; }
             else if (choice == 4)
-                math = "/";
+            { math = "/"; }
+
+           
 
 
             som.Text = $"{getal1} {math} {getal2}";
@@ -48,9 +45,26 @@ namespace Rekenspel
                 
         }
 
+        int calculate()
+        {
+            if (math == "+")
+            {
+                return getal1 + getal2;
+            }
+            else if (math == "-")
+            {
+                return getal1 - getal2;
+            }
+            else if (math == "*")
+            {
+                return getal1 * getal2;
+            }
+            else
+            {
+                return getal1 / getal2;
+            }
 
-
-
+        }
 
         public MainWindow()
         {
