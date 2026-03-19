@@ -11,12 +11,11 @@
         <Border BorderBrush="Black" BorderThickness="1" Margin="140,57,140,49" Background="#FFADB7E4" CornerRadius="12">
             <Label Content="🖩 Het Rekenspel 🖩&#xA;" Margin="146,31,146,248" FontSize="24" Foreground="#FF4A4A4A" FontWeight="Bold"></Label>
         </Border>
-        <Button Content="Check" Margin="492,231,224,157" Click="Button_Click_1" FontSize="24"/>
-        <TextBlock TextBlock.TextAlignment="Center" HorizontalAlignment="Left" Margin="160,316,0,0" TextWrapping="Wrap" Text="Score" VerticalAlignment="Top" Height="42" Width="115" FontSize="30" Foreground="#FF4A4A4A" RenderTransformOrigin="0.525,0.461"/>
+        <Button x:Name="check" Content="Check" Margin="492,231,224,157" Click="Button_Click_1" FontSize="24"/>
+        <TextBlock x:Name="score1" TextBlock.TextAlignment="Center" HorizontalAlignment="Left" Margin="160,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="115" FontSize="30" Foreground="#FF4A4A4A" RenderTransformOrigin="0.525,0.461" Text="Score: 0"/>
         <TextBlock x:Name="som" TextAlignment="Center" HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Height="60" Width="280" FontSize="36" VerticalAlignment="Top" Foreground="#FF4A4A4A" Background="White"><Run Language="nl-nl" Text="SOM"/><LineBreak/><Run Language="nl-nl"/></TextBlock>
         <Button Content="New som" HorizontalAlignment="Center" Margin="0,289,0,0" VerticalAlignment="Top" Height="43" Width="168" Click="Button_Click" FontSize="24" Foreground="#FF4A4A4A" BorderBrush="#FFC4B4B4">
         </Button>
-        <TextBox TextBlock.TextAlignment="Center" HorizontalAlignment="Center" Margin="0,237,0,0" TextWrapping="Wrap" Text="Input" VerticalAlignment="Top" Width="144" Height="34" TextChanged="TextBox_TextChanged" FontSize="24" Foreground="#FF4A4A4A" SelectionBrush="#FFF2E2BA" SelectionTextBrush="#FFF2E2BA" BorderBrush="#FFC4B4B4">
-        </TextBox>
+        <TextBox x:Name="answerTB" TextBlock.TextAlignment="Center" HorizontalAlignment="Center" Margin="0,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="34" TextChanged="TextBox_TextChanged" FontSize="24" Foreground="#FF4A4A4A" SelectionBrush="#FFF2E2BA" SelectionTextBrush="#FFF2E2BA" BorderBrush="#FFC4B4B4"/>
     </Grid>
 </Window>

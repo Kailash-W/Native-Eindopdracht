@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Diagnostics;
+using System.Numerics;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,12 +22,16 @@ namespace Rekenspel
         int getal1;
         int getal2;
         string math;
+        int total = 0;
+        string input;
+        int scoreboard = 0;
+
 
         void GenerateSom()
         {
             getal1 = random.Next(1, 11);
             getal2 = random.Next(1, 11);
-            int total = 0;
+            
             int choice = random.Next(1, 5);
             
              if (choice == 1)
@@ -49,19 +55,20 @@ namespace Rekenspel
         {
             if (math == "+")
             {
-                return getal1 + getal2;
+                return total = getal1 + getal2;
+
             }
             else if (math == "-")
             {
-                return getal1 - getal2;
+                return total = getal1 - getal2;
             }
             else if (math == "*")
             {
-                return getal1 * getal2;
+                return total = getal1 * getal2;
             }
             else
             {
-                return getal1 / getal2;
+                return total = getal1 / getal2;
             }
 
         }
@@ -82,8 +89,17 @@ namespace Rekenspel
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
+
         {
-            
+            calculate();
+            int answer;
+           
+            bool isNumeric = int.TryParse(answerTB.Text, out answer);
+            if (answer == total) 
+            {
+                scoreboard++; 
+                score1.Text = "Score: " + scoreboard;
+            }
         }
     }
 }
