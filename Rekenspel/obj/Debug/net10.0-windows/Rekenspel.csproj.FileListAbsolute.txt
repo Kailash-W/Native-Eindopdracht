@@ -27,7 +27,6 @@ C:\Users\kaila\source\repos\Native-Eindopdracht\Rekenspel\bin\Debug\net10.0-wind
 C:\Users\kaila\source\repos\Native-Eindopdracht\Rekenspel\obj\Debug\net10.0-windows\MainWindow.g.cs
 C:\Users\kaila\source\repos\Native-Eindopdracht\Rekenspel\obj\Debug\net10.0-windows\App.g.cs
 C:\Users\kaila\source\repos\Native-Eindopdracht\Rekenspel\obj\Debug\net10.0-windows\Rekenspel_MarkupCompile.cache
-C:\Users\kaila\source\repos\Native-Eindopdracht\Rekenspel\obj\Debug\net10.0-windows\Rekenspel_MarkupCompile.lref
 C:\Users\kaila\source\repos\Native-Eindopdracht\Rekenspel\obj\Debug\net10.0-windows\MainWindow.baml
 C:\Users\kaila\source\repos\Native-Eindopdracht\Rekenspel\obj\Debug\net10.0-windows\Rekenspel.g.resources
 C:\Users\kaila\source\repos\Native-Eindopdracht\Rekenspel\obj\Debug\net10.0-windows\Rekenspel.GeneratedMSBuildEditorConfig.editorconfig

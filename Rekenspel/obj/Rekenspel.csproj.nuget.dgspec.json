@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\laragon\\www\\Native-Eindopdracht\\Rekenspel\\Rekenspel.csproj": {}
+    "C:\\Users\\kaila\\source\\repos\\Native-Eindopdracht\\Rekenspel\\Rekenspel.csproj": {}
   },
   "projects": {
-    "C:\\laragon\\www\\Native-Eindopdracht\\Rekenspel\\Rekenspel.csproj": {
+    "C:\\Users\\kaila\\source\\repos\\Native-Eindopdracht\\Rekenspel\\Rekenspel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\laragon\\www\\Native-Eindopdracht\\Rekenspel\\Rekenspel.csproj",
+        "projectUniqueName": "C:\\Users\\kaila\\source\\repos\\Native-Eindopdracht\\Rekenspel\\Rekenspel.csproj",
         "projectName": "Rekenspel",
-        "projectPath": "C:\\laragon\\www\\Native-Eindopdracht\\Rekenspel\\Rekenspel.csproj",
-        "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\laragon\\www\\Native-Eindopdracht\\Rekenspel\\obj\\",
+        "projectPath": "C:\\Users\\kaila\\source\\repos\\Native-Eindopdracht\\Rekenspel\\Rekenspel.csproj",
+        "packagesPath": "C:\\Users\\kaila\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaila\\source\\repos\\Native-Eindopdracht\\Rekenspel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kaila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0-windows7.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

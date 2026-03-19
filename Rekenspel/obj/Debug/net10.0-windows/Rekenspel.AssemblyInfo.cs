@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rekenspel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eefc53ea0ab012c93f557f071cc4c54749ea524a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ca0fae83579f4d74116db1f0e6b6a8dac9f4a6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rekenspel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rekenspel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

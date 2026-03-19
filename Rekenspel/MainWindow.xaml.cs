@@ -95,10 +95,16 @@ namespace Rekenspel
             int answer;
            
             bool isNumeric = int.TryParse(answerTB.Text, out answer);
-            if (answer == total) 
+            if (answer == total)
             {
-                scoreboard++; 
+                scoreboard++;
                 score1.Text = "Score: " + scoreboard;
+                GenerateSom();
+                Background1.Background = Brushes.LightGreen; 
+            }
+            else
+            {
+                Background1.Background = Brushes.IndianRed;
             }
         }
     }
